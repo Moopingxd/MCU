@@ -50,6 +50,7 @@
 
 - LED: ໃຊ້ໄຟ LED ໃນຕົວຢູ່ pin 13 ຂອງ Arduino.
 - ການສະຫນອງພະລັງງານ: Arduino ສະຫນອງພະລັງງານໃຫ້ກັບວົງຈອນທັງຫມົດ.
+  
 ![image](https://github.com/user-attachments/assets/a658dfe1-1f6b-4c79-87b9-50ce6205b935)
 ![image](https://github.com/user-attachments/assets/e2995344-7608-4609-8af2-74299b8ec801)
 
@@ -107,6 +108,7 @@ Breadboard
 ### ການເຊື່ອມຕໍ່ວົງຈອນ
 
 LED ແມ່ນເຊື່ອມຕໍ່ກັບ pin output ໂດຍຜ່ານຕົວຕ້ານທານ. ດ້ວຍຂາລົບທີ່ເຊື່ອມຕໍ່ກັບ GND, Microcontroller Arduino ຈະປ່ຽນສະຖານະຂອງ output ເພື່ອເຮັດໃຫ້ໄຟ LED ກະພິບ.
+
 ![image](https://github.com/user-attachments/assets/fa74b3a3-9400-416e-baa0-5bcfd41e3fde)
 ![image](https://github.com/user-attachments/assets/f86bab11-4f5b-4c58-89e9-4d5b54dec076)
 
@@ -167,6 +169,7 @@ Delay 1 ວິນາທີ.
 - ປຸ່ມກົດແມ່ນເຊື່ອມຕໍ່ກັບ pin 2 (ການປ້ອນຂໍ້ມູນດິຈິຕອນ) ຂອງ Arduino.
 - ຂາຫນຶ່ງຂອງປຸ່ມກົດແມ່ນເຊື່ອມຕໍ່ກັບ GND ແລະ ຂາອື່ນແມ່ນເຊື່ອມຕໍ່ກັບ pin 2.
 - LED ແມ່ນເຊື່ອມຕໍ່ກັບ pin LED ໃນຕົວ (ຫຼື pin ດິຈິຕອນອື່ນ) ຜ່ານຕົວຕ້ານທານ. ຂາລົບແມ່ນເຊື່ອມຕໍ່ກັບ GND.
+  
 ![image](https://github.com/user-attachments/assets/0bbd79a3-230c-4410-b47b-54995b421349)
 ![image](https://github.com/user-attachments/assets/2980044c-b436-47a8-b9ac-3c1134be91e0)
 
@@ -240,7 +243,8 @@ RGB LED ມີ 4 pins ຄື: pin ສໍາລັບແຕ່ລະສີ (ສ�
 - Pin 10: ສີຂຽວ
 - Pin 11: ສີຟ້າ
 - Cathode ທົ່ວໄປ: ເຊື່ອມຕໍ່ກັບ GND
-  ![image](https://github.com/user-attachments/assets/db27b570-d5e5-4a9e-b2d7-acb7f7ac0a3b)
+  
+![image](https://github.com/user-attachments/assets/db27b570-d5e5-4a9e-b2d7-acb7f7ac0a3b)
 ![image](https://github.com/user-attachments/assets/db4c1daf-2df8-4023-9527-2f4df8045e46)
 
 
@@ -381,7 +385,8 @@ delay(100);}
 
 - ເຊື່ອມຕໍ່ pin buzzer ກັບ pin 9 ຂອງ Arduino.
 - ເຊື່ອມຕໍ່ຂາອື່ນຂອງ buzzer ກັບ GND.
-  ![image](https://github.com/user-attachments/assets/8c330756-2b07-4f70-9915-7ef741970a10)
+  
+![image](https://github.com/user-attachments/assets/8c330756-2b07-4f70-9915-7ef741970a10)
 
 ### ໂຄດທີ່ໃຊ້
 ```
@@ -595,7 +600,8 @@ Buzzer
 ### ການເຊື່ອມຕໍ່ວົງຈອນ
 
 ຕໍ່ຂາ 5V ໃສ່ບອດຂາ + ແລະ GND ໃສ່ - ຕໍ່ສາຍໄຟໃສ່ RGB ຂາສີແດງ ຕໍ່ສາຍໄຟໃສ່ RGB ໃສ່ຂາສີຟ້າ ແລະ ຕໍ່ກັບ Resistor 220 Ohm ຕໍ່ Buzzer ໃສ່ກັບຂາຂອງ Adruino ແລະ GND ຕໍ່ Button 2 ອັນໃສ່່ກັບ Adruino
- ![image](https://github.com/user-attachments/assets/34c26abe-5ca4-465e-b870-6738ec767dd1)
+
+![image](https://github.com/user-attachments/assets/34c26abe-5ca4-465e-b870-6738ec767dd1)
 ![image](https://github.com/user-attachments/assets/0a2ddc0b-7bfb-44c2-84be-3dfbefaeb126)
 
 ### ໂຄດທີ່ໃຊ້
@@ -804,7 +810,8 @@ Potentiometer ຫຼື ຕົວປັບແຮງດັນແມ່ນຕົ�
 - ເຊື່ອມຕໍ່ LED ກັບ pin 11 ໃນ Arduino.
 - ຂາຍາວ (Anode pin) ຂອງ LED ໄປກັບ pin 11.
 - ຂາສັ້ນ (ຂາ Cathode) ຂອງ LED ໂດຍຜ່ານ 220Ω resistor ຕໍ່ກັບ GND.
-  ![image](https://github.com/user-attachments/assets/b7acc954-6820-46cb-8fc6-5879e0fbd86e)
+  
+![image](https://github.com/user-attachments/assets/b7acc954-6820-46cb-8fc6-5879e0fbd86e)
 
 
 ### ໂຄດທີ່ໃຊ້
@@ -866,7 +873,8 @@ Serial.println(map(255, 0, 255, 0, 1023));//1023
 - COM (ທົ່ວໄປ) pin ຂອງ relay →ເຊື່ອມຕໍ່ກັບ pole ບວກຂອງ LED ໄດ້.
 - NO (ເປີດປົກກະຕິ) pin of relay → ເຊື່ອມຕໍ່ກັບ 5V ຂອງ Arduino.
 - ຂົ້ວລົບຂອງ LED → 220Ω resistor → GND ຂອງ Arduino.
-  ![image](https://github.com/user-attachments/assets/42d198ea-c9a3-4561-8bea-cf77d8b35f7f)
+  
+![image](https://github.com/user-attachments/assets/42d198ea-c9a3-4561-8bea-cf77d8b35f7f)
 
 ### ການເຊື່ອມຕໍ່ວົງຈອນ
 ```
@@ -918,7 +926,8 @@ delay(1000); // Wait for 1000 millisecond(s)
 - ເຊື່ອມຕໍ່ pin 1 ຂອງ potentiometer ກັບ 5V ໃນ Arduino.
 - ເຊື່ອມຕໍ່ pin 2 (ກາງ) ຂອງ Potentiometer ກັບ A0 ຂອງ Arduino.
 - ເຊື່ອມຕໍ່ pin 3 ຂອງ Potentiometer ກັບ GND ຂອງ Arduino.
-  ![image](https://github.com/user-attachments/assets/bd98ae61-3132-494d-a4ba-65906cc48372)
+  
+![image](https://github.com/user-attachments/assets/bd98ae61-3132-494d-a4ba-65906cc48372)
 
 
 ### ໂຄດທີ່ໃຊ້
@@ -977,7 +986,8 @@ a → 2, b → 3, c → 4, d → 5, e → 6, f → 7, g → 8
 
 - ເຊື່ອມຕໍ່ cathode ທົ່ວໄປ (CC) ຫຼື anode ທົ່ວໄປ (CA) pin ກັບ GND ຫຼື 5V ຕາມປະເພດຂອງ 7-Segment.
 - ໃຊ້ຕົວຕ້ານທານ 220Ω ເປັນຊຸດກັບແຕ່ລະ pin a-g ເພື່ອຫຼຸດຜ່ອນກະແສໄຟຟ້າ.
-  ![image](https://github.com/user-attachments/assets/77c82aeb-b83f-47b0-ad45-169ae3593271)
+  
+![image](https://github.com/user-attachments/assets/77c82aeb-b83f-47b0-ad45-169ae3593271)
 
 
 ### ໂຄດທີ່ໃຊ້
@@ -1122,6 +1132,7 @@ Button
 ### ການຕໍ່ວົງຈອນ
 
 ຕໍ່ Servo ເຂົ້າກັບ Adruino ຕໍ່ສາຍໄຟ ທີ່ຂາ 5V ໄປໃສ່ຊ່ອງ (+) ແລະ ຕໍ່ GND ໃສ່ (-) ຕໍ່ RGB, Button, Potentiometer, 7- Segment ໃສ່ໃນ Breadboard ຕາມພາບລຸ່ມນີ້
+
 ![image](https://github.com/user-attachments/assets/5e39a591-b577-49d2-890b-7971cd400037)
 
 ### ການຕໍ່ວົງຈອນ
@@ -1425,6 +1436,46 @@ delay(500);
 ຫຼັງຈາກຕໍ່ວົງຈອນແລ້ວ ເຮົາຈະເຫັນ 7-Segment ສະແດງຊັ້ນທີ່ເຮົາຢູ່ປັດຈຸບັນ ຫຼັງຈາກນັ້ນໃຫ້ເຮົາກົດປຸ່ມເພືອໃຫ້ໄຟເປັນ ສີຟ້າ ແລະ ໝຸນ Potentiometer ເພື່ອເລືອກຊັ້ນໃນ Serial Monitor ແລະ ກົດປຸ່ມເພື່ອຢືນຢັນຊັ້ນທີ່ເລືອກ ຫຼັງຈາກນັ້ນ Servo ຈະ 1 ຮອບ ຕໍ່ 1 ຊັ້ນ
 ```
 # Sheet Lab ການທົດລອງທັງໝົດ
+
 ![image](https://github.com/user-attachments/assets/2e601ebe-dd9f-4d08-98c1-26539bb4b897)
 
 [**https://docs.google.com/spreadsheets/d/1fgD1fINyslZyBwaCdMCPx-vJDv68j5T6hoyybIJzzEY/edit?usp=sharing**](https://docs.google.com/spreadsheets/d/1fgD1fINyslZyBwaCdMCPx-vJDv68j5T6hoyybIJzzEY/edit?usp=sharing)
+
+
+### 0.	Blink	
+![image](https://github.com/user-attachments/assets/ad814ba1-7d9c-48ff-9c38-cad56b3e4946)
+
+### 1. Experiment Blink       
+![image](https://github.com/user-attachments/assets/96406bf5-98c0-4ffa-8aea-ff3170d69a47)
+
+### 2. Switch
+![image](https://github.com/user-attachments/assets/382de668-280e-42f2-82a7-f04e079104bd)
+
+### 3. RGB or LED with Serial
+![image](https://github.com/user-attachments/assets/f895a8c6-d747-4ba5-bed5-b815fe8afcd2)
+
+### 4. Passive Buzzer and Active Buzzer            
+![image](https://github.com/user-attachments/assets/0ea2c90e-e07e-4aa0-8932-52922167bc74)
+
+### Project 1 Ambulance
+![image](https://github.com/user-attachments/assets/4a7dbd47-3160-4063-8104-48aff17beaed)
+
+### 5. Potentiometer (volume)
+![image](https://github.com/user-attachments/assets/1898daf3-7e4f-4555-a9a3-e8c07b42b3e4)
+
+### 6.  Relay with 12v	
+![image](https://github.com/user-attachments/assets/bcb0a955-a17f-48ed-8d63-431b9b3c3e0d)
+
+### 7. Sweep and Knob Servo Motor
+![image](https://github.com/user-attachments/assets/0b49a9eb-177f-4db3-a72b-4fcfab1cf75b)
+
+### 8. 7-segment
+ ![image](https://github.com/user-attachments/assets/f30f93e4-890d-4dc6-8559-a77ad82a64c9)
+
+### Project 2 Elevator
+![image](https://github.com/user-attachments/assets/bd955ba9-96a3-4420-9952-dfacc0907ac3)
+
+ 				    
+
+
+
