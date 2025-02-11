@@ -1425,5 +1425,6 @@ delay(500);
 ຫຼັງຈາກຕໍ່ວົງຈອນແລ້ວ ເຮົາຈະເຫັນ 7-Segment ສະແດງຊັ້ນທີ່ເຮົາຢູ່ປັດຈຸບັນ ຫຼັງຈາກນັ້ນໃຫ້ເຮົາກົດປຸ່ມເພືອໃຫ້ໄຟເປັນ ສີຟ້າ ແລະ ໝຸນ Potentiometer ເພື່ອເລືອກຊັ້ນໃນ Serial Monitor ແລະ ກົດປຸ່ມເພື່ອຢືນຢັນຊັ້ນທີ່ເລືອກ ຫຼັງຈາກນັ້ນ Servo ຈະ 1 ຮອບ ຕໍ່ 1 ຊັ້ນ
 ```
 # Sheet Lab ການທົດລອງທັງໝົດ
+![image](https://github.com/user-attachments/assets/2e601ebe-dd9f-4d08-98c1-26539bb4b897)
 
 [**https://docs.google.com/spreadsheets/d/1fgD1fINyslZyBwaCdMCPx-vJDv68j5T6hoyybIJzzEY/edit?usp=sharing**](https://docs.google.com/spreadsheets/d/1fgD1fINyslZyBwaCdMCPx-vJDv68j5T6hoyybIJzzEY/edit?usp=sharing)
